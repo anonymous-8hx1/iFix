@@ -1,0 +1,11 @@
+--- /Users/ruixinwang/d4j/d4j_bugs/Chart/Chart_9_buggy/source/org/jfree/data/time/TimeSeries.java	2023-01-17 00:23:16
++++ /Users/ruixinwang/d4j/d4j_bugs/Chart/Chart_9_fixed/source/org/jfree/data/time/TimeSeries.java	2023-03-11 22:16:51
+@@ -941,7 +941,7 @@
+             endIndex = -(endIndex + 1); // this is first item AFTER end period
+             endIndex = endIndex - 1;    // so this is last item BEFORE end
+         }
+-        if (endIndex < 0) {
++        if( endIndex < startIndex ) { emptyRange = true ;
+             emptyRange = true;
+         }
+         if (emptyRange) {

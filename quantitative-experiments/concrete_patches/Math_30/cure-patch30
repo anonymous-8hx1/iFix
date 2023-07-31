@@ -1,0 +1,11 @@
+--- /Users/ruixinwang/d4j/d4j_bugs/Math/Math_30_buggy/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java	2023-01-10 15:47:24
++++ /Users/ruixinwang/d4j/d4j_bugs/Math/Math_30_fixed/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java	2023-03-11 22:16:01
+@@ -170,7 +170,7 @@
+                                              final int n2)
+         throws ConvergenceException, MaxCountExceededException {
+ 
+-        final int n1n2prod = n1 * n2;
++        final float n1n2prod = n2*n1;
+ 
+         // http://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U#Normal_approximation
+         final double EU = n1n2prod / 2.0;
