@@ -1,11 +1,14 @@
 # iFix
 The source code and experiment scripts of *Interactive Program Repair*.
 
-Check [our website](https://sites.google.com/view/ifixuserstudy) for details of the User Study.
+Check [our website](https://sites.google.com/view/ifixuserstudy) for details of the **User Study**.
+
+![overview](https://github.com/anonymous-8hx1/iFix/assets/141085692/6958c616-672e-493d-ae51-cd8585a81e26)
+
 
 ## Tutorial Video
 
-
+[![iFix Tutorial](https://img.youtube.com/vi/QfkMG-E50g4/mqdefault.jpg)](http://www.youtube.com/watch?v=QfkMG-E50g4 "iFix Tutorial")
 
 ## Requirements
 
