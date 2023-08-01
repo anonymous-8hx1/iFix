@@ -1,0 +1,14 @@
+- Include pass/fail information in probabilistic algorithm
+- Somehow makes user able to say "include i" or "include k" on-the-fly -> mark as desired/undesired
+- Let user able to say "a must equal b" or "a must not equal b" and use that to filter patches
+
+
+- Branch coverage
+- Find the great use case!
+- User scenario: 
+    Alex looks at old teammate code.
+    VS team generates many patches.
+    She crosses out some.
+    6 left.
+    Look at runtime value.
+    Look at branch coverage.
