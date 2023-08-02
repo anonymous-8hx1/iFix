@@ -1,10 +1,14 @@
 # iFix
-The source code and experiment scripts of *Interactive Program Repair*.
+The source code and experiment scripts of the paper submitted to ICSE 2024 Second Cycle 
 
-Check [our website](https://sites.google.com/view/ifixuserstudy) for details of the **User Study**.
+*Towards Efficient and Confident Patch Selection: An Interactive Support for Automated Program Repair*.
 
 ![overview](https://github.com/anonymous-8hx1/iFix/assets/141085692/6958c616-672e-493d-ae51-cd8585a81e26)
 
+
+## User Study
+
+Please refer to [our website](https://sites.google.com/view/ifixuserstudy) for more details.
 
 ## Tutorial Video
 
@@ -44,7 +48,7 @@ Check [our website](https://sites.google.com/view/ifixuserstudy) for details of 
 
  - 'Run and Debug' -> 'Run Extension'
 
-    <img width="500"  alt="Screenshot 2023-03-31 at 12 10 00 AM" src="https://user-images.githubusercontent.com/67893756/229020807-6adcd90f-d606-44c3-b6bb-7c598b1aa2a5.png">
+    <img width="350"  alt="Screenshot 2023-03-31 at 12 10 00 AM" src="https://user-images.githubusercontent.com/67893756/229020807-6adcd90f-d606-44c3-b6bb-7c598b1aa2a5.png">
 
  - In the new VS Code workspace, open sample buggy projects:
     `d4j-repo/Math_30`

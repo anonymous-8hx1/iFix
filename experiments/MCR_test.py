@@ -35,8 +35,8 @@ def output_ranked_patch(ranker_patch, bug_id, stage):
 
 def MCR_ranking_result(file_name, bug_id, buggy_line):
     ipr = IPR(file_name, bug_id, buggy_line)
-    ranked_patch = ipr.patch_data[ipr.stage_id].get_ranked_patch()   # 这是要展示的
-    cluster_data = ipr.patch_data[ipr.stage_id].get_cluster_data()   # 这是存个底
+    ranked_patch = ipr.patch_data[ipr.stage_id].get_ranked_patch()   
+    cluster_data = ipr.patch_data[ipr.stage_id].get_cluster_data() 
     cur_stage = ipr.get_stage_id()
     output_cluster(cluster_data, bug_id, cur_stage)
     output_ranked_patch(ranked_patch, bug_id, cur_stage)
@@ -58,8 +58,7 @@ def main():
     with open('./data/bug_info.json', 'r') as f:
         bug_info = json.load(f)
         for bi in bug_info:
-            if bi['BUG_ID'] == 'Lang_57':
-                MCR_ranking_result(bi['FILE_NAME'], bi['BUG_ID'], bi['BUGGY_LINE'])
+            MCR_ranking_result(bi['FILE_NAME'], bi['BUG_ID'], bi['BUGGY_LINE'])
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,11 @@
+--- /Users/ruixinwang/d4j/d4j_bugs/Math/Math_59_buggy/src/main/java/org/apache/commons/math/util/FastMath.java	2023-02-16 20:37:13
++++ /Users/ruixinwang/d4j/d4j_bugs/Math/Math_59_fixed/src/main/java/org/apache/commons/math/util/FastMath.java	2023-03-11 22:16:17
+@@ -3479,7 +3479,7 @@
+      * @return b if a is lesser or equal to b, a otherwise
+      */
+     public static float max(final float a, final float b) {
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        return( a <= b ) ? b :( Float.isNaN( b ) ? b : a ) ;
+     }
+ 
+     /** Compute the maximum of two values

@@ -21,5 +21,5 @@ def main(test):
         KNOD_test()
 
 if __name__ == '__main__':
-    TEST = 'KNOD'
+    TEST = 'RewardRepair'
     main(TEST)
