@@ -1,9 +1,9 @@
 # iFix
-The source code and experiment scripts of the paper submitted to ICSE 2024 Second Cycle 
+The source code and experiment scripts of the paper submitted to CHi 2024 
 
-*Towards Efficient and Confident Patch Selection: An Interactive Support for Automated Program Repair*.
+*iFix: Boosting User Trust in Automated Program Repair*.
 
-![overview](https://github.com/anonymous-8hx1/iFix/assets/141085692/6958c616-672e-493d-ae51-cd8585a81e26)
+![overview1](https://github.com/anonymous-8hx1/iFix/assets/141085692/21a104e3-60b6-41bd-8e32-c7f2f17f68bf)
 
 
 ## User Study
